@@ -23,17 +23,18 @@ public class BControllerCj2 {
 	}
 	
 //	tom1 comment
+//	tom1 comment 2
 	@RequestMapping("/write")
 	public String write(HttpServletRequest request, Model model) {
 		System.out.println("write()");
 //		�۾��� ����
 ////		toss
-//		model.addAttribute("request",request);
-//		bServiceInter=new BWriteService();
-//		bServiceInter.execute(model);
+		model.addAttribute("request",request);
+		bServiceInter=new BWriteService();
+		bServiceInter.execute(model);
 
 		return "redirect:list";
 	}
-//tom2
+//tom1
 
 }
