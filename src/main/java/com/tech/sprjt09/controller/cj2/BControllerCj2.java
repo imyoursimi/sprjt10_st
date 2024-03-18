@@ -13,6 +13,7 @@ import com.tech.sprjt09.service.cj2.BWriteService;
 public class BControllerCj2 {
 	
 	BServiceInter bServiceInter;
+	
 
 	@RequestMapping("/write_view")
 	public String write_view(Model model) {
@@ -21,10 +22,11 @@ public class BControllerCj2 {
 		return "write_view";
 	}
 	
+//	tom1 comment
 	@RequestMapping("/write")
 	public String write(HttpServletRequest request, Model model) {
 		System.out.println("write()");
-//		±Û¾²±â ÁøÇà
+//		ï¿½Û¾ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 ////		toss
 //		model.addAttribute("request",request);
 //		bServiceInter=new BWriteService();
