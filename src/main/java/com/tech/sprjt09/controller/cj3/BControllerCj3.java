@@ -18,7 +18,7 @@ public class BControllerCj3 {
 	@RequestMapping("/content_view")
 	public String content_view(HttpServletRequest request, Model model) {
 		System.out.println("content_view()");
-		//(±Û¹øÈ£)ÇØ´ç±Û Á¶È¸
+		//(ï¿½Û¹ï¿½È£)ï¿½Ø´ï¿½ï¿½ ï¿½ï¿½È¸
 ////		toss
 //		model.addAttribute("request", request);
 //		bServiceInter=new BContentViewService();
@@ -29,7 +29,7 @@ public class BControllerCj3 {
 	@RequestMapping("/content_update")
 	public String content_update(HttpServletRequest request, Model model) {
 		System.out.println("content_update()");
-		//(±Û¹øÈ£)ÇØ´ç±Û Á¶È¸
+		//(ï¿½Û¹ï¿½È£)ï¿½Ø´ï¿½ï¿½ ï¿½ï¿½È¸
 ////		toss
 //		model.addAttribute("request", request);
 //		bServiceInter=new BContentViewService();
@@ -37,11 +37,12 @@ public class BControllerCj3 {
 
 		return "content_update";
 	}
-	
+//	sun comment
+//	tom2 comment
 	@RequestMapping(method = RequestMethod.POST,value = "/modify")
 	public String modify(HttpServletRequest request, Model model) {
 		System.out.println("modify()");
-		//(±Û¹øÈ£)ÇØ´ç±Û ¼öÁ¤
+		//(ï¿½Û¹ï¿½È£)ï¿½Ø´ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 //		toss
 //		String bid=request.getParameter("bid");
 //		model.addAttribute("request",request);
