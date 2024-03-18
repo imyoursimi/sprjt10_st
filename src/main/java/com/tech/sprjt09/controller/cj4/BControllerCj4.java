@@ -16,15 +16,17 @@ import com.tech.sprjt09.service.cj3.BModifyService;
 public class BControllerCj4 {
 	BServiceInter bServiceInter;
 
+//	tom3 comment
 	@RequestMapping("/delete")
 	public String delete(HttpServletRequest request,
 			Model model) {
 		System.out.println("delete()");
-////		db¿¡ µ¥ÀÌÅÍ »èÁ¦
+////		dbï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 //		//toss
-//		model.addAttribute("request",request);
-//		bServiceInter=new BDeleteService();
-//		bServiceInter.execute(model);
+		// ±è°æÅÂ ÁÖ¼® ÇØÁ¦
+		model.addAttribute("request",request);
+		bServiceInter=new BDeleteService();
+		bServiceInter.execute(model);
 //		
 		return "redirect:list";
 	}
