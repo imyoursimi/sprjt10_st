@@ -37,7 +37,7 @@ public class BControllerCj3 {
 
 		return "content_update";
 	}
-	
+//	sun comment
 //	tom2 comment
 	@RequestMapping(method = RequestMethod.POST,value = "/modify")
 	public String modify(HttpServletRequest request, Model model) {
